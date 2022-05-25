@@ -8,6 +8,12 @@ ol, ul {
   padding-left: 30px;
 }
 
+.board {
+  position: absolute;
+  top: 15%;
+  left: 20%;
+}
+
 .board-row:after {
   clear: both;
   content: "";
@@ -20,9 +26,9 @@ ol, ul {
 
 .square {
   background: beige;
-  border: 5px solid lightslategrey;
+  border: 8px solid lightslategrey;
   float: left;
-  font-size: 34px;
+  font-size: 30px;
   font-weight: bold;
   line-height: 34px;
   height: 140px;
@@ -51,15 +57,15 @@ ol, ul {
   font-size: 1.5em;
 }
 
-button {
-  background-color: #000000;
-  display: inline-block;
-  border: none;
-  text-align: left;
-}
+/*button {*/
+/*  background-color: #000000;*/
+/*  display: inline-block;*/
+/*  border: none;*/
+/*  text-align: left;*/
+/*}*/
 
 .main-container {
-  position: relative;
+  position: fixed;
   width: 100%;
   height: 50px;
   background-color: #000000;
@@ -76,4 +82,11 @@ button {
 
 .slide-menu {
   left: 0px;
+}
+
+.rm {
+  background: red;
+  border-radius: 50%;
+  color: #FFFFFF;
+  border: none;
 }
