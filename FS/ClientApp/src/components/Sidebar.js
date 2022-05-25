@@ -1,15 +1,12 @@
 import React from 'react';
 import {
-    CDBBadge,
     CDBSidebar,
     CDBSidebarContent,
     CDBSidebarFooter,
     CDBSidebarHeader,
     CDBSidebarMenu,
     CDBSidebarMenuItem,
-    CDBSidebarSubmenu,
 } from 'cdbreact';
-import { NavLink } from 'react-router-dom';
 
 const Sidebar = () => {
     return (

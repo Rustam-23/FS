@@ -57,12 +57,12 @@ ol, ul {
   font-size: 1.5em;
 }
 
-button {
-  background-color: #000000;
-  display: inline-block;
-  border: none;
-  text-align: left;
-}
+/*button {*/
+/*  background-color: #000000;*/
+/*  display: inline-block;*/
+/*  border: none;*/
+/*  text-align: left;*/
+/*}*/
 
 .main-container {
   position: fixed;
@@ -82,4 +82,11 @@ button {
 
 .slide-menu {
   left: 0px;
+}
+
+.rm {
+  background: red;
+  border-radius: 50%;
+  color: #FFFFFF;
+  border: none;
 }
